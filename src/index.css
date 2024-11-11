@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://media.istockphoto.com/id/1180555500/vector/abstract-geometric-background-mosaic-with-triangle-patterns-blue-gradient.jpg?s=612x612&w=0&k=20&c=iTPsxNrZfiAq3QiUfZ-XqHlgK2vqVC_2cvsiN3rd73w=');
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+textarea {
+  height: 150px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, white, rgb(146, 197, 214));
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid blue;
+  transition: all 0.3s ease;
+}
+
+textarea:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+p{
+  color: white;
+}
+
+.hentai{
+  margin-top: 100px;
+}
+
+.rajini{
+  margin-top: 5px;
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+.loader {
+  width: 45px;
+  aspect-ratio: 1;
+  --c: no-repeat linear-gradient(#e8e6e6 0 0);
+  background: 
+    var(--c) 0%   50%,
+    var(--c) 50%  50%,
+    var(--c) 100% 50%;
+  background-size: 20% 100%;
+  animation: l1 1s infinite linear;
+}
+@keyframes l1 {
+  0%  {background-size: 20% 100%,20% 100%,20% 100%}
+  33% {background-size: 20% 10% ,20% 100%,20% 100%}
+  50% {background-size: 20% 100%,20% 10% ,20% 100%}
+  66% {background-size: 20% 100%,20% 100%,20% 10% }
+  100%{background-size: 20% 100%,20% 100%,20% 100%}
+}
+
+.btn {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  font-size: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+}
+
+.btn:after,
+.btn:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+
+.btn:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid skyblue;
+  border-left: 5px solid skyblue;
+}
+
+.btn:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid skyblue;
+  border-right: 5px solid skyblue;
+}
+
+.btn:hover {
+  color: white;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.btn:hover:before,
+.btn:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.vertical-bar-graph-container {
+  display: flex;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.vertical-bar-graph {
+  width: 500px;
+  background-color: #ccc;
+  margin: 0 50px;
+}
+
+.positive {
+  background-color: rgb(37, 233, 37);
+}
+
+.neutral {
+  background-color: yellow;
+}
+
+.negative {
+  background-color: red;
+}

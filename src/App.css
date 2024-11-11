@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #004578; /* Adjust color as per your design */
+}
+
+.navbar-logo a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-button .btn {
+  background-color: #0078d4; /* Button color */
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.navbar-button .btn:hover {
+  background-color: #005fa3; /* Darker shade on hover */
+}
+.sentiment-help {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.sentiment-help h2 {
+  font-size: 28px;
+  color: #002f6c;
+  margin-bottom: 30px;
+}
+
+.help-features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature-item {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.check-icon {
+  color: #00a859;
+  margin-right: 10px;
+}
+
+.feature-item p {
+  font-size: 18px;
+  color: #002f6c;
+  margin: 0;
+}
+
+/* Additional styling for the "How does it work?" section */
+.sentiment-help .help-features p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333; /* Change this to a darker color if needed */
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire div */
+}
+
